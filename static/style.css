@@ -1,0 +1,77 @@
+body {
+    background-image: url('fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+button.vert {
+    --glow-color: rgb(72, 174, 41);
+    --glow-spread-color: rgba(78, 178, 31, 0.781);
+    --btn-color: rgba(255, 255, 255, 0.559);
+    border: .25em solid var(--glow-color);
+    padding: 0;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    height: 10vh;
+    width: 8%;
+   }
+
+.vert::after {
+    position: absolute;
+    pointer-events: none;
+    content: "";
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+   }
+   
+.vert:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+.vert:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+   
+button.jaune {
+    --glow-color: rgb(255, 238, 0);
+    --glow-spread-color: rgba(255, 251, 0, 0.813);
+}
+.titre{
+       margin-left: 35%;
+       font-family:"MountainsofChristmas-Regular", "Avantgarde" , "TeX Gyre Adventor", "URW Gothic L", sans-serif ;
+       color:rgb(227, 60, 60)
+}
+
+@media screen and (orientation : portrait) {
+    button.vert {
+        margin-left: 9%;
+        margin-bottom: 8%;
+        height: 7%;
+        width: 21%;
+    }
+    h1.titre{
+        margin-left: 10%;
+    }
+}
+.jeu{
+    width: 100px;
+    height: 100px;
+}

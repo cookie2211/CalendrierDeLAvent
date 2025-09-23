@@ -1,0 +1,24 @@
+//Tnale commentaires a décoder
+
+pendu : afficher le mot a la fin et JE VEUX UN CLAVIER
+flappygoat : corriger le bug de mur
+snake: augmenter la vitesse progressivement + ajouter la queue
+duckhunt : augmenter la vitesse progressivement
+ajouter jeux NDC FINIS !
+finir fropPymaze
+finir PYmon
+
+pyxel edit tonfichier.pyxres
+
+
+// NEW
+faire un vrai dossier git une fois que tout est fonctionnel
+faire un README.md
+refaire des beaux boutons
+
+idées de jeux:
+casse briques (la plateforme où tu peux faire droite gauche avec et la baballe qui doit casser des briques en haut)
+jeu du dino ? faire une ligne d'arrivée faut pas que ça soit infini
+jeu de cartes ? du genre un solitaire ? faut que la partie soit jouable donc ça ça va être chiant. 
+Memory ? faut une IA oskourrrrr
+tetris avec un timer et des pièces qui tombent de + en + vite. au bout de 1min tu as gagné par exemple
