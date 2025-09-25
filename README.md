@@ -1,6 +1,8 @@
 # CalendrierDeLAvent
 Calendrier de l'avent fait en Python, avec un site web géré avec du php, html et css
 
+![Bannière du projet](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/index.png)
+
 Comment démarrer le site ‘calendrier de l’avent’ ?
 
 Il faut simplement lancer le programme contenu dans le fichier ‘main.py’ (il se situe à la racine du dossier)
@@ -13,6 +15,8 @@ Comment jouer aux jeux ?
 Jour 1 - Duck Hunt :
 le but est d'éliminer le plus de canards possibles pour les toucher il faut cliquer avec la souris ou taper sur l'écran le nombre de cœurs représente le nombre de vies restantes, quand il n'y en a plus la partie est finie, il n'y a pas de victoire possible, juste un score qui s'affiche à la fin.
 
+![Duck_Hunt](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/DuckHunt.PNG)
+
 Jour 2  - Pendu :
 il s'agit du jeu du pendu avec des mots en lien avec noël, on a droit à 6 erreurs, si jamais on a déjà mis une lettre et que l'on souhaite la remettre, elle n'est pas prise en compte
 ATTENTION : le jeu ne fonctionne pas encore sur téléphone 
@@ -24,11 +28,15 @@ Pour rejouer, cliquer ou taper sur l’écran, une nouvelle partie se relancera 
 pour cliquer c'est clic gauche ou double clic (ou clic sur mobile),
 pour poser un drapeau c'est clic droit (ou appui long sur mobile)
 
+![Demineur](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/demineur.PNG)
+
 jour 4  - pyBROS :
 c'est un jeu de plateforme, le but est d'atteindre l'arrivée,
 pour bouger à droite ou à gauche il faut utiliser les touches directionnelles (ou les flèches sur le gamepad),
 pour sauter il faut appuyer sur espace (ou sur le bouton du haut (X) sur le gamepad).
 si vous êtes coincés dans une plateforme, sautez et vous en sortirez
+
+![PyBros](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/PyBros.PNG)
 
 jour 5  - ovnis :
 le but est d'éliminer le plus d'ennemis possible, le nombre de cœurs s'affiche en haut à gauche de l'écran,
@@ -50,6 +58,9 @@ pour sauter il faut appuyer sur espace ou taper sur l'écran
 
 jour 8  - Morpy :
 c'est un morpion qui se joue à 2, le premier qui aligne 3 de ses symboles a gagné
+
+![Morpy](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/Morpy.PNG)
+
 
 jour 9  - Snake :
 c'est un Snake, le but est d'avaler le plus de pommes possibles pour les manger il faut faire aller le serpent sur la case de la pomme,
