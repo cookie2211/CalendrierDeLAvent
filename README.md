@@ -1,68 +1,153 @@
-# CalendrierDeLAvent
-Calendrier de l'avent fait en Python, avec un site web géré avec du php, html et css
+# 🎄 Calendrier de l'Avent
+
+Un calendrier de l’avent interactif développé en **Python**, accompagné d’un site web en **PHP / HTML / CSS / JavaScript**. Chaque jour débloque un mini‑jeu différent.
 
 ![Bannière du projet](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/index.png)
 
-Comment démarrer le site ‘calendrier de l’avent’ ?
+---
 
-Il faut simplement lancer le programme contenu dans le fichier ‘main.py’ (il se situe à la racine du dossier)
-Attention, le site n’est pas accessible hors connexion (à cause du java script). 
-Ce n’est pas un gros problème puisque à l’origine il s’agit d’un site internet, mais pour le démarrer en local il faut de la connexion.
-Aussi accessible via un serveur php, si on le créé au niveau de la racine et qu'on va a /templates/index.php
+## 🚀 Démarrer le projet
 
-Comment jouer aux jeux ?
+### ▶️ Lancer la version locale
 
-Jour 1 - Duck Hunt :
-le but est d'éliminer le plus de canards possibles pour les toucher il faut cliquer avec la souris ou taper sur l'écran le nombre de cœurs représente le nombre de vies restantes, quand il n'y en a plus la partie est finie, il n'y a pas de victoire possible, juste un score qui s'affiche à la fin.
+Pour démarrer le calendrier de l’avent localement :
 
-![Duck_Hunt](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/DuckHunt.PNG)
+1. Exécutez le fichier **`main.py`** à la racine du projet.
+2. Assurez‑vous d’avoir une connexion Internet : certains scripts JavaScript nécessitent un accès réseau.
 
-Jour 2  - Pendu :
-il s'agit du jeu du pendu avec des mots en lien avec noël, on a droit à 6 erreurs, si jamais on a déjà mis une lettre et que l'on souhaite la remettre, elle n'est pas prise en compte
-ATTENTION : le jeu ne fonctionne pas encore sur téléphone 
+### 🌐 Via un serveur PHP
 
-Jour 3  - Démineur :
-c'est un démineur, c'est une grille remplie de bombes, l'objectif étant de découvrir toutes les cases sauf celles où il y a les bombes, si on touche une bombe, c'est Game Over
-le numéro sur une case indique le nombre de bombes sur les cases qui l'entourent.
-Pour rejouer, cliquer ou taper sur l’écran, une nouvelle partie se relancera automatiquement
-pour cliquer c'est clic gauche ou double clic (ou clic sur mobile),
-pour poser un drapeau c'est clic droit (ou appui long sur mobile)
+Vous pouvez également lancer le site à l’aide d’un serveur PHP local :
+
+1. Placez le serveur à la racine du projet.
+2. Ouvrez ensuite :
+
+```
+/templates/index.php
+```
+### sur internet
+
+Le jeu est aussi disponible sur ce [site](https://calendrierdelavent.eu.pythonanywhere.com/)
+
+---
+
+## Les jeux du Calendrier
+
+Chaque jour débloque un mini‑jeu différent. Certains jeux ont été développés par d’autres contributeurs — un lien vers leur profil GitHub est alors indiqué. 
+
+---
+
+### **Jour 1 – Duck Hunt**
+
+Objectif : éliminer un maximum de canards.
+
+* Tir : clic souris ou pression tactile.
+* Vies représentées par des cœurs.
+* Pas de victoire : seul le score final compte.
+
+![Duck\_Hunt](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/DuckHunt.PNG)
+
+---
+
+### **Jour 2 – Pendu**
+
+Le classique jeu du pendu, avec des mots autour du thème de Noël.
+
+* 6 erreurs possibles.
+* Répéter une lettre déjà tentée ne compte pas.
+* ⚠️ Non compatible mobile pour le moment.
+
+---
+
+### **Jour 3 – Démineur**
+
+Développeur : [*Mattis Vaucoulon*](https://github.com/Mat06v)
+
+Un démineur complet :
+
+* Découvrir toutes les cases sauf celles contenant des bombes.
+* Numéros = nombre de bombes adjacentes.
+* Rejouer : clic ou pression sur l’écran.
+* Actions :
+
+  * Découvrir : clic gauche / double‑clic / pression mobile.
+  * Drapeau : clic droit / appui long mobile.
 
 ![Demineur](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/demineur.PNG)
 
-jour 4  - pyBROS :
-c'est un jeu de plateforme, le but est d'atteindre l'arrivée,
-pour bouger à droite ou à gauche il faut utiliser les touches directionnelles (ou les flèches sur le gamepad),
-pour sauter il faut appuyer sur espace (ou sur le bouton du haut (X) sur le gamepad).
-si vous êtes coincés dans une plateforme, sautez et vous en sortirez
+---
+
+### **Jour 4 – pyBROS**
+
+Développeur : [*Bastien ISNARD*](https://github.com/Lisnarde)
+
+Jeu de plateforme : atteindre l’arrivée.
+
+* Déplacement : flèches ou gamepad.
+* Saut : espace ou bouton X du gamepad.
+* Si bloqué dans une plateforme : sauter pour s'en dégager.
 
 ![PyBros](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/PyBros.PNG)
 
-jour 5  - ovnis :
-le but est d'éliminer le plus d'ennemis possible, le nombre de cœurs s'affiche en haut à gauche de l'écran,
-on en perd quand on se fait toucher par un ennemi, quand il n'y en a plus la partie est finie, 
-il n'y a pas de victoire possible, juste un score qui s'affiche à la fin
-pour toucher les ennemis, il faut appuyer sur espace ou taper sur l'écran
-pour bouger il faut utiliser les flèches directionnelles ou les flèches du gamepad
+---
 
-jour 6  - Pac Man :
-il s'agit du célèbre jeu Pac Man, pour gagner il faut ramasser toutes les pièces du labyrinthe, si on touche un fantôme c'est Game Over.
-les cerises rapportent des points supplémentaires.
-pour bouger il faut rester appuyé sur les touches directionnelles ou les flèches du gamepad.
-il y a un passage de téléportation entre le bord milieu droit et le bord milieu gauche.
+### **🛸 Jour 5 – Ovnis**
 
-Jour 7  - FlapPY Goat :
-le but est de passer le plus de murs possibles, heurter un mur ou sortir de l'écran = Game Over
-la gravité fait constamment chuter le personnage, il faut donc le faire sauter pour le maintenir en l'air
-pour sauter il faut appuyer sur espace ou taper sur l'écran
+Survivre et éliminer un maximum d’ennemis.
 
-jour 8  - Morpy :
-c'est un morpion qui se joue à 2, le premier qui aligne 3 de ses symboles a gagné
+* Score final affiché en fin de partie.
+* Tir : espace ou pression mobile.
+* Mouvement : flèches ou gamepad.
+
+---
+
+### **🟡 Jour 6 – Pac‑Man**
+
+Développeur : [*Elisabeth MAUPAS*](https://github.com/KitsuneNoMegami)
+
+Version revisitée de Pac‑Man.
+
+* Objectif : manger toutes les pièces.
+* Cerises = bonus.
+* Collision fantôme = Game Over.
+* Téléportation sur les bords gauche/droit du milieu.
+
+---
+
+### **🐐 Jour 7 – FlapPY Goat**
+
+Développeur : [*Bastien ISNARD*](https://github.com/Lisnarde)
+
+Inspiré de Flappy Bird.
+
+* Éviter les murs.
+* Saut : espace ou pression mobile.
+* Sortir de l’écran = Game Over.
+
+---
+
+### **⭕ Jour 8 – Morpy** (Morpion)
+
+Développeur : *Alban STORCK*
+
+Jeu du morpion à un joueur.
+
+* Le premier à aligner 3 symboles gagne.
 
 ![Morpy](https://github.com/cookie2211/CalendrierDeLAvent/blob/v1/assets/Morpy.PNG)
 
+---
 
-jour 9  - Snake :
-c'est un Snake, le but est d'avaler le plus de pommes possibles pour les manger il faut faire aller le serpent sur la case de la pomme,
-il grandit à chaque fois qu'il en avale une. si on heurte le bord de la fenêtre ou qu'on heurte le corps du serpent, c'est Game Over et le score s’affiche.
-pour faire bouger le serpent on utilise les flèches directionnelles ou les flèches du gamepad
+### **🐍 Jour 9 – Snake**
+
+Version classique de Snake.
+
+* Manger des pommes pour grandir.
+* Collision mur ou corps = Game Over.
+* Contrôles : flèches ou gamepad.
+
+---
+
+## 📄 Licence
+
+Projet distribué sous licence **MIT**. Voir le fichier `LICENSE` pour plus d’informations.
