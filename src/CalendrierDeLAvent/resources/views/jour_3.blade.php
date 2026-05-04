@@ -2,14 +2,19 @@
 
 @section('title', 'Jour 3')
 
-@section('gameEmplacement', 'pendu/pendu.py')
+@if($isMobile)
+    @section('gameEmplacement', 'demineur_mob/demineur_mob.py')
+@else
+    @section('gameEmplacement', 'demineur/demineur.py')
+@endif
 
 @section('content')
-		<p>il s'agit du jeu du pendu avec des mots en lien avec noel,
-            on a droit a 6 erreurs
-            ATTENTION : le jeu ne fonctionne pas encore sur telephone
-            si jamais on a déjà mis une lettre et que l'on shouaite la remettre, 
-            elle n'est pas prise en compte
+		<p>c'est un démineur, c'est une grille remplie de bombes, 
+            l'objectif étant de découvrir toutes les cases sauf celles ou il y a les bombes,
+            si on touche une bombe, c'est game over
+            le numéro sur une case indique le nombre de bombes sur les cases qui l'entourent
+            pour cliquer c'est clic gauche ou double clic (ou clic sur mobile),
+            pour poser un drapeau c'est clic droit (ou appui long sur mobile)
         </p>
 
 @endsection
