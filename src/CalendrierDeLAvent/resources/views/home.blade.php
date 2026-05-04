@@ -12,13 +12,12 @@
     <h1 class="titre">Mon calendrier de l'avent</h1>
 
     
-    @for ($i = 1; $i <= 24; $i++){
+    @for ($i = 1; $i <= 24; $i++)
         <form method="GET" action="{{ route('jour', ['jour' => $i]) }}">
-            <button class="vert {{ $i == 24 ? 'jaune' : '' }}">
+            <button type="submit" class="vert {{ $i == 24 ? 'jaune' : '' }}">
                 Jour {{ $i }}
             </button>
         </form>
-    }
     @endfor
     </body>
 </html>

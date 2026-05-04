@@ -2,7 +2,7 @@
 
 @section('title', 'Jour 1')
 
-@section ('gameEmplacement', '"Duck_Hunt/Duck_Hunt.py"')
+@section('gameEmplacement', 'Duck_Hunt/Duck_Hunt.py')
 
 @section('content')
 		<p>le but est d'éliminer le plus de canards possibles

@@ -12,7 +12,7 @@
 		@section('description')
         @show
         <div class="jeu">
-            <pyxel-run root= "/jeux" name=@yield('gameEmplacement')></pyxel-run>
+            <pyxel-run root="/pyxel" name=@yield('gameEmplacement')></pyxel-run>
         </div>
 	</body>
 </html>

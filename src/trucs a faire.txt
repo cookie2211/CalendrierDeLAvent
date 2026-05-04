@@ -4,7 +4,6 @@ pendu : afficher le mot a la fin et JE VEUX UN CLAVIER
 flappygoat : corriger le bug de mur
 snake: augmenter la vitesse progressivement + ajouter la queue
 duckhunt : augmenter la vitesse progressivement
-ajouter jeux NDC FINIS !
 finir fropPymaze
 finir PYmon
 
@@ -12,13 +11,16 @@ pyxel edit tonfichier.pyxres
 
 
 // NEW
-faire un vrai dossier git une fois que tout est fonctionnel
-faire un README.md
+update README.md
 refaire des beaux boutons
+piquer TOWER a bastien et le jeu de mattis
+faire en sorte que quand on clique sur le jour, on arrive sur une page où on a les explications du jeu avant de le lancer directement 
+améliorer les routes / architecture, un seul fichier jour au lieu de 1 par jour
 
 idées de jeux:
 casse briques (la plateforme où tu peux faire droite gauche avec et la baballe qui doit casser des briques en haut)
 jeu du dino ? faire une ligne d'arrivée faut pas que ça soit infini
-jeu de cartes ? du genre un solitaire ? faut que la partie soit jouable donc ça ça va être chiant. 
+jeu de cartes ? du genre un solitaire ?  
 Memory ? faut une IA oskourrrrr
+bataille navale, avec une IA 
 tetris avec un timer et des pièces qui tombent de + en + vite. au bout de 1min tu as gagné par exemple
