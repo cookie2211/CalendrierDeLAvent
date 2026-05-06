@@ -19,11 +19,10 @@ Pour démarrer le calendrier de l’avent localement :
 
 Vous pouvez également lancer le site à l’aide d’un serveur PHP local :
 
-1. Placez le serveur à la racine du projet.
-2. Ouvrez ensuite :
-
+1. Placez vous à     CalendrierDeLAvent/src/CalendrierDeLAvent
+2. tapez cette commande
 ```
-/templates/index.php
+php artisan serve
 ```
 ### sur internet
 
